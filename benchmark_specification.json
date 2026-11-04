@@ -25,6 +25,11 @@
     "value": "sys-bench-amd-fio-nvme-sweep-ubu2604"
   },
   {
+    "field_name": "Repo Directory Name",
+    "source_file": "BenchmarkSpecDefinitions.xlsx::Workload_Definitions",
+    "value": "306-sys-bench-amd-fio-nvme-sweep-ubu2604"
+  },
+  {
     "field_name": "Main Goal",
     "source_file": "BenchmarkSpecDefinitions.xlsx::Workload_Definitions",
     "value": "Measure fio IOPS, bandwidth, and tail latency across a yaml sweep"
