@@ -11,15 +11,15 @@ Reference results from the validation run on the system shown in each section (r
 ## smoke
 
 - **System:** 1× AMD Instinct MI300X VF (196288 MB) · INTEL(R) XEON(R) PLATINUM 8568Y+ · Ubuntu 26.04.1 LTS · kernel 7.0.0-43-generic · driver 7.1.9.31600000
-- **Run:** 2026-11-22T10:50:21Z · status **PASS** (exit 0)
-- **Time (mm:ss):** setup 00:11 · benchmark 00:11 · whole run 00:27
-- **Source:** run 306_20261122_105021
+- **Run:** 2026-11-22T14:16:00Z · status **PASS** (exit 0)
+- **Time (mm:ss):** setup 00:11 · benchmark 00:11 · whole run 00:28
+- **Source:** run 306_20261122_141600
 - **Command:** `bash run_benchmark.sh --smoke --io-engine libaio --filename data/fio_target.bin --direct 1 --rw randread --block-size 4k --size 64m --io-depth 1,8 --num-jobs 4 --warmup-duration-sec 0 --runtime 5`
 
 | # | Metric | Result |
 |---|---|---|
-| 1 | IOPS mean at first sweep case (iops_mean) | 50940.611878 |
-| 2 | Bandwidth at first sweep case, MB/s (bandwidth_mb_s) | 208.652746 |
+| 1 | IOPS mean at first sweep case (iops_mean) | 50281.543691 |
+| 2 | Bandwidth at first sweep case, MB/s (bandwidth_mb_s) | 205.953202 |
 | 3 | Completion latency p50 at first sweep case, us (clat_p50_us) | 83.456 |
-| 4 | IOPS, 4k random read, iodepth 8 x 4 jobs = 32 in flight, every profile (iops_mean__randread_4k_qd8) | 165904.019196 |
+| 4 | IOPS, 4k random read, iodepth 8 x 4 jobs = 32 in flight, every profile (iops_mean__randread_4k_qd8) | 162663.267347 |
 <!-- /profile:smoke -->
